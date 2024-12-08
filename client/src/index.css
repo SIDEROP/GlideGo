@@ -1,0 +1,68 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #aaaaaa;
+  --text-dark-color: #111111;
+  --profile-bg-color: #dfdf23;
+
+  /* Complementary Colors */
+  --complement-bg-color: #000000;
+  --complement-text-color: #555555;
+  --complement-text-dark-color: #eeeeee;
+  --complement-profile-bg-color: #2300df;
+
+  /* Accent Colors */
+  --primary-accent: #007bff;
+  --secondary-accent: #28a745;
+  --danger-accent: #dc3545;
+
+  /* Neutral Colors */
+  --light-gray: #f8f9fa;
+  --medium-gray: #6c757d;
+  --dark-gray: #343a40;
+
+  /* Success, Warning, Info */
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* @media (min-width: 574px) {
+  #sideData {
+    position: relative;
+    width: 60%; 
+    min-width: 400px
+  } 
+} */
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
